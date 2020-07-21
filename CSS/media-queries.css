@@ -1,0 +1,38 @@
+@media (max-width: 900px) {
+.blogs-main-new {
+    grid-template-columns: 1fr;
+    grid-template-rows: 3fr;
+}
+.blogs-news-img {
+    grid-row: 2;
+}
+
+.blogs-info-container {
+   grid-column: 1;
+   grid-row: 3;
+}
+
+.blogs-post-container .post-container{
+  max-width: 45%; 
+}
+.perfil-main {
+    display: block;
+}
+.perfil-img {
+    text-align: center;
+    
+}
+.perfil-img img {
+    width: 90%;
+}
+.contact-wrap {
+    width: 95%;
+}
+
+@media (max-width: 600px) {
+    .blogs-post-container .post-container {
+        max-width: 95%;
+    }
+}
+
+}
